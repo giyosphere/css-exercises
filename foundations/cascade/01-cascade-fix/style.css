@@ -8,7 +8,7 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+p:nth-of-type(2){
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,8 +17,8 @@ body {
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
+button:first-of-type {
+  background-color: green;
   color: white;
   font-weight: bold;
 } 
@@ -35,8 +35,8 @@ body {
   font-size: 14px;
 }
 
-div.text {
+.text > div {
   color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
+  font-size: 12px;
+  font-weight: bold;
 }
