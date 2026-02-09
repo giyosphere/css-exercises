@@ -1,1 +1,24 @@
 /* Add CSS Styling */
+p{
+  background-color: lightpink;
+}
+
+/* or we can use div:first-of-type in the first div with an id of #one-id */
+#one-id{
+  color: blue;
+  font-size: 36px;
+}
+
+
+/*or we can use p:nth-of-type(2) in the .cooler-class selector */
+.cooler-class{
+  font-size: 24px;
+}
+
+/* or we can use div:last-of-type in the #second-id selector */
+
+#second-id{
+  background-color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
+}
