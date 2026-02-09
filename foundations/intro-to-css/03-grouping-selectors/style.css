@@ -1,1 +1,15 @@
 /* Add CSS Styling */
+
+.btn-click {
+  background-color: black;
+  color: white;
+}
+
+button:last-of-type{
+  background-color: yellow;
+}
+
+.btn-click, button:last-of-type {
+  font-size: 28px;
+  font-family: 'Times New Roman', Helvetica, sans-serif
+}
